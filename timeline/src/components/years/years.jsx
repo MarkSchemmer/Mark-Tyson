@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Year from "./year";
+import Year from "../year/year.jsx";
 
 class Years extends Component {
   render() {

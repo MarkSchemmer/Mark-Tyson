@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import DataX from "../data/data.json";
-import Years from "./years";
+import DataX from "./data.json";
+import Years from "../years/years.jsx";
 
 class Body extends Component {
   render() {
