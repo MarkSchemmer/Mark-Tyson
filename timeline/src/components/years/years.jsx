@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import Year from "../year/year.jsx";
 
-class Years extends Component {
-  render() {
+const Years = (props) => {
     return (
       <div>
-        {this.props.years.map(yearX => (
-          <Year years={this.props.years} yearX={yearX} key={yearX.year} />
+        {props.years.map(yearX => (
+          <Year years={props.years} yearX={yearX} key={yearX.year} handleClick={props.handleClick} />
         ))}
       </div>
-    );
+    )
   }
-}
 
 export default Years;
