@@ -1,6 +1,6 @@
 .year {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   background: #87d5eb;
   color: white;
   padding-top: 50px;
@@ -93,4 +93,27 @@
 
 .year:nth-last-child(1) {
   height: 550px !important;
+}
+
+i {
+  position: absolute;
+  font-size: 100px;
+}
+
+.year:nth-child(odd) i {
+  top: 500px;
+  right: 20px;
+  color: #4eb5d2;
+}
+.year:nth-child(even) i {
+  top: 500px;
+  left: 10px;
+  color: #87d5eb;
+}
+
+.year i:hover {
+  color: white;
+}
+.year:nth-child(1) i {
+  top: 430px !important;
 }
