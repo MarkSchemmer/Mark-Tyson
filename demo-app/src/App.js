@@ -1,19 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Years from "./components/years/years.jsx";
+import Header from "./components/header/header.jsx";
+import json from "./data.json";
+import "./body.css";
 
-class App extends Component {
+import {scroller} from 'react-scroll';
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { myData: json };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+
+  handleClick = year => {
+      scroller.scrollTo(year, {
+        duration:1500,
+        delay:100,
+        smooth:true,
+        offset:-400
+      });
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <React.Fragment>
+        <Header data={this.state.myData.years} handleClick={this.handleClick} />
+        <Years data={this.state.myData.years} />
+      </React.Fragment>
     );
   }
 }
