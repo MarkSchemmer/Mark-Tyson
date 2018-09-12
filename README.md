@@ -10,12 +10,12 @@ off this Brown Bag with slides and questions.
 **But**, if you do want to follow along, you must bring/do:
 
 - Laptop.
-- [Download](https://nodejs.org/en/download/) NodeJs.
+- [Download](https://nodejs.org/en/download/) **NodeJs**.
 - Go to your desktop directory and in your console type ```git clone https://github.com/MarkSchemmer/Mark-Tyson.git```.
     - If you do not have **Git**, [download here](https://git-scm.com/downloads).
 
-- In your console enter **demo-app** directory and in your console type ```npm install``` .
-    - This should install all the dependencies that you will need.
+- In your console enter **demo-app** directory in the cloned git directory, in your console type ```npm install```
+ (This should install all the dependencies that you will need).
 
 As well this respository has all the slides and the finished tutorial as well.
     
