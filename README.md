@@ -4,7 +4,7 @@ We will start this Brown Bag with a small introduction with
 slides by Tyson, then we'll jump right on into the tutorial.
 Then I (Mark) will do the last part of the tutorial by adding a small
 scroll feature to the web-app that we'll be making together, then I'll finish
-off this Brown Bag with slides and questions.
+off this Brown Bag with my slide's and questions.
 
 **Note:** if you do not want to participate you're still welcome to come along and learn.
 **But**, if you do want to follow along, you must bring/do:
@@ -17,7 +17,7 @@ off this Brown Bag with slides and questions.
 - In your console enter **demo-app** directory in the cloned git directory, in your console type ```npm install```
  (This should install all the dependencies that you will need).
 
-As well this respository has all the slides and the finished tutorial as well.
+This respository has all the slides and the finished tutorial as well.
     
 # Links for additional learning
 1. Small free Youtube introduction to [ReactJs](https://www.youtube.com/watch?v=Ke90Tje7VS0&t=984s).
