@@ -4,7 +4,9 @@ import React from 'react';
 class App extends React.Component {
     render(){
         return (
-            <div></div>
+            <div>
+                <h1>Welcome to the demo App!</h1>
+            </div>
         );
     };
 }
