@@ -3,14 +3,7 @@ import Header from "./components/header/header.jsx";
 import DataX from "./data.json";
 import "./body.css";
 import "./App.css";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import { scroller } from "react-scroll";
 import Years from "./components/years/years";
 
 class App extends Component {

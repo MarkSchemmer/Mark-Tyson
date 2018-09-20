@@ -28,6 +28,7 @@ This respository has all the slides and the finished tutorial as well.
 6. Some documentation on [react-scroll](https://www.npmjs.com/package/react-scroll).
 7. Some good discussions on Library vs. Framework,  read [here](https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library/3057818#3057818) and [here](https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library).
 8. [Virtual DOM in ReactJs](https://hackernoon.com/virtual-dom-in-reactjs-43a3fdb1d130).
+9. Please read the **"difference between framework and library.pdf"** in the PowerPoint directory, online link [here](http://tom.lokhorst.eu/2010/09/why-libraries-are-better-than-frameworks).
 
 
 These above links are important if you would like to learn more!
